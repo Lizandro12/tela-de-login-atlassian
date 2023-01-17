@@ -1,0 +1,194 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-screen{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffff;
+}
+
+.login-screen img{
+    width: 230.5px;
+    margin-bottom: 50px;
+}
+
+section{
+    width: 400px;
+    height: 536px;
+    background: #ffff;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3.6px;
+}
+
+.sub-section{
+    width: 400px;
+    height: 536px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    width: 420px;
+    padding: 17.5px 20px 18px 20px;
+}
+
+header > h5{
+    margin: 15px 15px 0px 15px;
+    text-align: center;
+    font-size: 12pt;
+    color: #5e6c84;
+}
+
+.form-box{
+    width: 100%;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-box form{
+    width: 323.94px ;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.input-field{
+    width: 100%;
+    height: 50%;
+    padding: 5px;
+    margin: 4.6px;
+}
+.input-field input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    background: #fafbfc;
+    border: solid 2px #dfe1e6;
+}
+
+.input-field input:focus-visible{
+    outline: solid 2px  #0051cd ;
+    border: none;
+}
+.input-field button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background: #0051cd;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.input-field button > span{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.login-options{
+    width: 400px ;
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+}
+.login-options > span{
+    margin-bottom: 3.5px;
+    padding: 2px 0px 2px 0px;
+    font-size: 11.4px;
+    color: #949597;
+}
+
+.login-option{
+    padding: 8px;
+}
+
+.login-option button{
+    width: 313.94px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 20%) 1px 1px 5px 0px !important;
+    background: #ffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.login-option button .img{
+    width: 18px;
+    height: 18px;
+
+}
+
+.login-option button .img > img{
+    width: 18px;
+}
+
+.n{
+    margin-left: -10px;
+}
+.login-option button  .text{
+    margin: 0px 30px 0px 15px;
+    padding: 1.5px;
+}
+.login-option button .text > a{
+    text-decoration: none;
+    font-size: 13.4px;
+    font-weight: bold;
+    color: #42526e;
+}
+
+.footer-form{
+    width: 313.94px;
+    margin: 18px 0px 0px 0px ;
+}
+
+.footer-form::before{
+    content: "";
+    display: block;
+    border-top: 1px solid #dfe1e6;
+    margin-bottom: 15px;
+}
+.other-options{
+    width: 265px;
+    font-size: 10.8pt;
+    margin-left: 23px;
+}
+
+.other-options ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.other-options li{
+    list-style: none;
+
+}
+.other-options a{
+    text-decoration: none;
+    color: #0051cd;
+}
+
